@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10 Aliens</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black background */
+            color: #00ff00; /* Green text color */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #00ff00; /* Green header */
+            color: black; /* Black text in header */
+            padding: 1em;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 0.2em;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 0.5em;
+            font-weight: bold;
+        }
+
+        nav a.active {
+            color: black;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #111; /* Dark background for the content */
+            border-radius: 8px;
+        }
+
+        .character-info h2 {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+        }
+
+        .character-info p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        .character-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .character-info li {
+            margin-bottom: 0.5em;
+        }
+
+        .image-gallery h3 {
+            margin-top: 1em;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #00ff00; /* Green footer */
+            color: black; /* Black text in footer */
+        }
+
+        .heatblast h2 {
+            color: #00ff00; /* Green for Heatblast */
+        }
+
+        .four-arms h2 {
+            color: #00ff00; /* Green for Four Arms */
+        }
+
+        .diamondhead h2 {
+            color: #00ff00; /* Green for Diamondhead */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ben 10 Universe</h1>
+        <nav>
+            <a href="#heatblast" class="active">Heatblast</a>
+            <a href="#four-arms">Four Arms</a>
+            <a href="#diamondhead">Diamondhead</a>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="character-info heatblast" id="heatblast">
+            <h2>Heatblast</h2>
+            <p>Heatblast is a Pyronite from the planet Pyros, known for his ability to generate and control intense flames. As one of Ben's most iconic forms, he is capable of launching fireballs and flying using controlled flames.</p>
+            <ul>
+                <li><strong>Species:</strong> Pyronite</li>
+                <li><strong>Planet:</strong> Pyros</li>
+                <li><strong>Abilities:</strong> Fire manipulation, flight, resistance to extreme heat</li>
+            </ul>
+            <section class="image-gallery">
+                <h3>Image Gallery</h3>
+                <div class="gallery">
+                    <img src="img/heatblast.webp" alt="Heatblast">
+                </div>
+            </section>
+        </section>
+
+        <section class="character-info four-arms" id="four-arms">
+            <h2>Four Arms</h2>
+            <p>Four Arms is a Tetramand from the planet Khoros, known for his immense strength and size. Standing over 12 feet tall and equipped with four powerful arms, he's one of Ben's go-to forms for fights requiring brute force.</p>
+            <ul>
+                <li><strong>Species:</strong> Tetramand</li>
+                <li><strong>Planet:</strong> Khoros</li>
+                <li><strong>Abilities:</strong> Super strength, jumping, shockwaves by clapping his hands</li>
+            </ul>
+            <section class="image-gallery">
+                <h3>Image Gallery</h3>
+                <div class="gallery">
+                    <img src="img/fourarms.webp" alt="FourArms">
+                </div>
+            </section>
+        </section>
+
+        <section class="character-info diamondhead" id="diamondhead">
+            <h2>Diamondhead</h2>
+            <p>Diamondhead is a Petrosapien from the planet Petropia, known for his crystalline body that allows him to create sharp weapons and shields. He’s capable of shooting crystal shards and is nearly invulnerable to most forms of physical damage.</p>
+            <ul>
+                <li><strong>Species:</strong> Petrosapien</li>
+                <li><strong>Planet:</strong> Petropia</li>
+                <li><strong>Abilities:</strong> Crystal manipulation, enhanced durability, weapon formation</li>
+            </ul>
+            <section class="image-gallery">
+                <h3>Image Gallery</h3>
+                <div class="gallery">
+                    <img src="img/Diamondhead.webp" alt="Diamondhead">
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Ben 10 Universe</p>
+    </footer>
+</body>
+</html>
+
